@@ -18,7 +18,12 @@ int main(int argc, char *argv[]) {
 		score[i]=grade[i];
 	
 	for(i=0;i<SIZE;i++)
+		{
+		printf("grade[%d]=%d\n",i,grade[i]);
+		}
+		for(i=0;i<SIZE;i++)
+		{
 		printf("score[%d]=%d\n",i,grade[i]);
-	
+		}
 	return 0;
 }
